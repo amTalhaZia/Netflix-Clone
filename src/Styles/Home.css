@@ -1,0 +1,13 @@
+.banner {
+    height: 300px;
+    background-color: black;
+}
+
+.card {
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.card:hover {
+    transform: translateY(10px) scale(1.3);
+}
